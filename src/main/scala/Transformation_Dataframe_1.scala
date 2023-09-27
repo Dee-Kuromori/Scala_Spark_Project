@@ -17,7 +17,7 @@ object Transformation_Dataframe_1 {
     println(column_names.mkString(","))
 
     // Transformation 1: Selecting specific columns (name, age)
-    val select_df = df.select("id", "name")
+    val select_df = df.select("Age", "Name")
     select_df.show()
 
   }
